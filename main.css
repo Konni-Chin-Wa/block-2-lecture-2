@@ -1,0 +1,19 @@
+table.one {
+    width: 20em;
+    border-spacing:0em;
+    border-collapse: separate;
+}
+table.one th {
+    text-transform: capitalize;
+    
+}
+table.one thead th {
+    color:red;
+}
+table.one th,td {
+    padding: 0.75em 0 0.75em 0;
+    border:darkblue solid 2px;
+}
+table.one tr:nth-child(even) {
+    background-color: cadetblue;
+}
